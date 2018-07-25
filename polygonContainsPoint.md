@@ -1,3 +1,6 @@
+# Polygon Contains Point results
+
+
 ## Table I Comparing systems with indexers, no partitions
 Cores |	Exareme SpatialIndex |	Spatial Spark Broadcast Spatial Join	| STARK LiveIndex	| GeoSpark Indexed |	Magellan Indexed
 --- | --- | --- | --- | --- | ---
@@ -26,14 +29,14 @@ Cores |	Exareme SpatialIndex |	Partitioned Spatial-Spark	| STARK LiveIndex	| Geo
 16	| |	16.19333333	| 7.834	| 4.978666667 |	19.655
 24 | |	18.03566667	| 6.451333333	| 5.341666667	| 18.221
 					
-## Table IV Comparing systems without indexers, 8 partitions
+## Table V Comparing systems without indexers, 8 partitions
 Cores |	Exareme SpatialIndex |	Spatial Spark Broadcast Spatial Join	| STARK LiveIndex	| GeoSpark Indexed
 --- | --- | --- | --- | ---
 8 |	No experiments without indexer	| 9.966	| 2.502666667	| 2.289333333	
 16 | | 8.49967 |	2.581333333	| 1.995333333	
 24 | |	8.388	| 2.029666667	| 2.548	
 					
-## Table IV Comparing systems without indexers,	16 partitions			
+## Table VI Comparing systems without indexers,	16 partitions			
 Cores |	Exareme SpatialIndex |	Spatial Spark Broadcast Spatial Join	| STARK LiveIndex	| GeoSpark Indexed
 --- | --- | --- | --- | ---
 8 |	No experiments without indexer |	5.733	| 4.453333333	| 1.462333333	
