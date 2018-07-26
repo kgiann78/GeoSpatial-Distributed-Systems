@@ -22,22 +22,22 @@ Cores | Exareme SpatialIndex |  Spatial Spark Broadcast Spatial Join
 24 | 4.801333333 | 3.069
 
 ### Table IV Comparing systems without indexers, no partitions
-Cores | Exareme |  Spatial-Spark Partitioned Spatial Join 
---- | --- | --- 
-8 | No experiments without indexer | 27.3463
-16 |  |25.8323
-24 |  |26.782
+Cores | Spatial-Spark Partitioned Spatial Join 
+--- | --- 
+8 | 27.3463
+16  |25.8323
+24  |26.782
 
 ### Table V Comparing systems without indexers, 8 partitions
-Cores | Exareme |  Spatial-Spark Partitioned Spatial Join
---- | --- | --- 
-8 | No experiments without indexer | 12.361
-16 | | 12.372
-24 | | 11.989
+Cores |  Spatial-Spark Partitioned Spatial Join
+--- | --- 
+8  | 12.361
+16 | 12.372
+24 | 11.989
 
 ### Table VI Comparing systems without indexers, 16 partitions     
-Cores | Exareme |  Spatial-Spark Partitioned Spatial Join 
---- | --- | --- 
-8 | No experiments without indexer | 8.30867
-16 | | 8.25933
-24 | | 7.34933
+Cores | Spatial-Spark Partitioned Spatial Join 
+--- | --- 
+8 | 8.30867
+16 | 8.25933
+24 | 7.34933
