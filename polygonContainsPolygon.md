@@ -23,22 +23,22 @@ Cores | Exareme SpatialIndex |  Spatial Spark Broadcast Spatial Join  | STARK Li
 24 |  4.946333333 |  2.708 |  3.574 |  3.699
           
 ### Table IV Comparing systems without indexers, no partitions
-Cores | Exareme |  Spatial-Spark Partitioned Spatial Join  | STARK w/o Indexer | GeoSpark w/o Indexer
---- | --- | --- | --- | ---
-8 | No experiments without indexer | 26.1217 |  5.837 |  16.997 
-16 |    | 28.2593 |  6.904 |  16.689 
-24 |    | 28.4877 |  7.116 |  16.71233333 
+Cores |  Spatial-Spark Partitioned Spatial Join  | STARK w/o Indexer | GeoSpark w/o Indexer
+--- | --- | --- | ---
+8 | 26.1217 |  5.837 |  16.997 
+16 | 28.2593 |  6.904 |  16.689 
+24 | 28.4877 |  7.116 |  16.71233333 
           
 ### Table V Comparing systems without indexers, 8 partitions
-Cores | Exareme |  Spatial-Spark Partitioned Spatial Join  | STARK w/o Indexer | GeoSpark w/o Indexer
---- | --- | --- | --- | ---
-8 | No experiments without indexer  | 13.247 |   3.61 |   4.890666667 
-16 |    | 11.2867 |  2.431 |  5.046333333 
-24 |    | 11.4163 |  2.573 |  4.318333333 
+Cores |  Spatial-Spark Partitioned Spatial Join  | STARK w/o Indexer | GeoSpark w/o Indexer
+--- | --- | --- | --- 
+8 | 13.247 |   3.61 |   4.890666667 
+16 | 11.2867 |  2.431 |  5.046333333 
+24 | 11.4163 |  2.573 |  4.318333333 
           
 ### Table VI Comparing systems without indexers, 16 partitions     
-Cores | Exareme |  Spatial-Spark Partitioned Spatial Join  | STARK w/o Indexer | GeoSpark w/o Indexer
---- | --- | --- | --- | ---
-8 | No experiments without indexer  | 8.014 |  4.798 |  10.332 
-16 |    | 7.53833 |  4.256 |  3.363333333  
-24 |    | 7.60033 |  3.671 |  3.699666667 
+Cores |  Spatial-Spark Partitioned Spatial Join  | STARK w/o Indexer | GeoSpark w/o Indexer
+--- | --- | --- | --- 
+8 | 8.014 |  4.798 |  10.332 
+16 | 7.53833 |  4.256 |  3.363333333  
+24 | 7.60033 |  3.671 |  3.699666667 
