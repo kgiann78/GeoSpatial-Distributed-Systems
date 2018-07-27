@@ -11,9 +11,9 @@ Cores | Exareme SpatialIndex   | STARK LiveIndex
 ### Table II Comparing systems with indexers, 8 partitions       
 Cores | Exareme SpatialIndex  | STARK LiveIndex
 --- | --- | --- 
-8 | 3.76  |  164.792
-16 |3.674333333  | 181.174 
-24 |  3.544666667 |  206.851
+8 | 3.76  |  146.7806667
+16 |3.674333333  | 160.84
+24 |  3.544666667 |  178.4423333
           
 ### Table III Comparing systems with indexers, 16 partitions       
 Cores | Exareme SpatialIndex  | STARK LiveIndex
