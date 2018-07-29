@@ -21,3 +21,6 @@ Cores | Exareme SpatialIndex
 8 | 
 16 | 
 24 | 510.046
+
+
+![stark-line-index](https://github.com/kgiann78/GeoSpatial-Distributed-Systems/tree/feature-figures/figures/stark-line-index.eps)
